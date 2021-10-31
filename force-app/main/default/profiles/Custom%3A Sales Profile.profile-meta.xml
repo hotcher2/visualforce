@@ -18,6 +18,10 @@
         <apexPage>StandardController</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <pageAccesses>
+        <apexPage>standardListController</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <tabVisibilities>
         <tab>Expressions</tab>
         <visibility>DefaultOn</visibility>
@@ -28,6 +32,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Standard_Controller</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Standard_List_Controller</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
