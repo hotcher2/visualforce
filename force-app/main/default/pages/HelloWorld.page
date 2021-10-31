@@ -1,0 +1,19 @@
+<apex:page>
+    <apex:form>
+        <apex:pageBlock title="PageBlock title">
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton title="PageBlock Button1" value="Button1"></apex:commandButton>
+                <apex:commandButton title="PageBlock Button2" value="Button2"></apex:commandButton>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="PageBlock section 1">
+                Content goes here 1
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="PageBlock section 2">
+                Content goes here 2
+                <apex:pageBlockSectionItem>
+
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
