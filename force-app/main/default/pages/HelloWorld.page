@@ -9,9 +9,13 @@
                 Content goes here 1
             </apex:pageBlockSection>
             <apex:pageBlockSection title="PageBlock section 2">
-                Content goes here 2
                 <apex:pageBlockSectionItem>
-
+                    <apex:outputText value="The unformatted time right now is: {! NOW() }" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem>
+                    <apex:outputText value="The formatted time right now is: {0,date,yyy.MM.dd G 'at' HH:mm:ss z}">
+                        <apex:param value="{! NOW()}" />                        
+                    </apex:outputText>
                 </apex:pageBlockSectionItem>
             </apex:pageBlockSection>
         </apex:pageBlock>

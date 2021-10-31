@@ -11,10 +11,12 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Visualforce Playground</label>
     <navType>Standard</navType>
+    <tabs>Hello_VF_World</tabs>
+    <tabs>Expressions</tabs>
+    <tabs>Standard_Controller</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Opportunity</tabs>
-    <tabs>Hello_VF_World</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Visualforce_Playground_UtilityBar</utilityBar>
 </CustomApplication>

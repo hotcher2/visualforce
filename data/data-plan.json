@@ -1,0 +1,23 @@
+{
+  "excludedFields": [],
+  "sObjects": [
+    {
+      "name": "Account",
+      "label": "",
+      "filters": "",
+      "excludedFields": []
+    },
+    {
+      "name": "Contact",
+      "label": "",
+      "filters": "",
+      "excludedFields": []
+    },
+    {
+      "name": "Opportunity",
+      "label": "",
+      "filters": "",
+      "excludedFields": []
+    }
+  ]
+}
