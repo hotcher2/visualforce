@@ -1,13 +1,25 @@
-# Importing Test Data
+# Visualforce Project: Next Steps
+
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+
+- Run `npm install` in root of project to install useful scripting plugins.
+- Run `sfdx force:user:password:generate -l 6 -c 2` to generate a password for your scratch org user. 
+
+## Importing Test Data
 
 - Use the [Texei SFDX Plugin](https://github.com/texei/texei-sfdx-plugin)
 - Test data exists in `/data` folder
 - Open terminal to root of the repo
 - Type `sfdx texei:data:import --inputdir ./data`
 
-# Salesforce DX Project: Next Steps
+## Create scratch org from VS Code
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+- `Ctrl+Shift+P` and `SFDX: Create a Default Scratch Org...`
+
+## Other Useful Tools
+
+- [Mockaroo](https://mockaroo.com/) - Fake data generation.
+- https://dataloader.io - Import data into your scratch org.
 
 ## How Do You Plan to Deploy Your Changes?
 
